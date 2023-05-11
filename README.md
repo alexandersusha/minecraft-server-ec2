@@ -12,16 +12,16 @@ Use the following link to open AWS console [aws.amazon.com/console/](https://aws
 
 Select `IAM user`, enter `AWS account alias` `ehu-esde-lr` and click on `Next`
 
-<img src="/images/aws_login_2.png" width="50%" height="50%">
+<img src="/images/aws_login_2.png" width="389" height="468">
 
 Enter `IAM user name` and `Password`. The user name format is `firstname.lastname`. Click on `Sign In`
 
-<img src="/images/aws_login_3.png" width="50%" height="50%">
+<img src="/images/aws_login_3.png" width="382" height="473">
 
 
 After successful login, first of all select an AWS region where you are planning to create infrastructure for your Minecraft server, e.g. `us-east-1 (N. Virginia)`
 
-<img src="/images/aws_region.png" width="436" height="84">
+<img src="/images/aws_region.png" width="264" height="47"> 
 
 Then you need to select EC2 console to proceed with EC2 stuff
 
@@ -62,7 +62,7 @@ chmod 600 ~/.ssh/minecraft.pem
 
 In the left panel of the EC2 console find `Network & Security` -> `Security Groups` and click on it.
 
-<img src="/images/key_pair_params.png" width="196" height="234">
+<img src="/images/find_security_groups.png" width="196" height="234">
 
 In the upper right corner of the central panel you can find `Create security group` and click on it.
 
@@ -70,7 +70,7 @@ In the upper right corner of the central panel you can find `Create security gro
 
 In `Basic details` section fill in `Security group name` `minecraft`, `Descrition` `Allow access to SSH and Minecraft server` and select VPC where you are planning to create your EC2 instance.
 
-<img src="/images/key_pair_params.png" width="222" height="95">
+<img src="/images/sg_basic_details.png" width="50%" height="50%">
 
 In `Inbound rules` section click on `Add rule` twice to add new inbound rules for SSH and Minecraft server. Your IP address you can find using this website [whatismyipaddress.com](https://whatismyipaddress.com/)
 
