@@ -96,7 +96,7 @@ In the upper right corner of the central panel you can find `Launch instances` a
 
 Fill in `Name` `minecraft` in `Name and tags` section
 
-<img src="/images/sg_inbound_rules.png" width="775" height="155">
+<img src="/images/ec2_name_tag.png" width="50%" height="50%">
 
 Select the `Ubuntu` tile in `Application and OS Images` section by clicking on it.
 
